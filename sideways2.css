@@ -1,0 +1,145 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+#visibleView{
+    width: 95%;
+    height: 60vh;
+    background-color: black;
+    position: relative;
+    overflow-x: scroll;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px black;
+}
+#visibleView::-webkit-scrollbar{
+    display: none;
+}
+#overflowingDiv{
+    width: 300vw;
+    height: 100%;
+    background-color: black;
+    position: absolute;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 25px;
+    padding-left: 40px;
+}
+.card{
+    width: 6%;
+    height: 85%;
+    background-color: white;
+    border-radius: 10px;
+    background-size: 120% 120%;
+    background-position: center;
+    position: relative;
+    transition: all 0.5s;
+    flex-shrink: 0;
+}
+.card:hover{
+    background-size: 100% 100%;
+    transform: scale(1.1);
+}
+.card1{
+    background-image: url(../../Assets/images/number1.jpg);
+}
+.card2{
+    background-image: url(../../Assets/images/number1.jpg);
+}
+.card3{
+    background-image: url(../../Assets/images/number1.jpg);
+}
+.card4{
+    background-image: url(../../Assets/images/number1.jpg);
+}
+.card5{
+    background-image: url(../../Assets/images/number1.jpg);
+}
+.card6{
+    background-image: url(../../Assets/images/number1.jpg);
+}
+.card7{
+    background-image: url(../../Assets/images/number1.jpg);
+}
+.card8{
+    background-image: url(../../Assets/images/number1.jpg);
+}
+.card9{
+    background-image: url(../../Assets/images/number1.jpg);
+}
+.card10{
+    background-image: url(../../Assets/images/number1.jpg);
+}
+.card11{
+    background-image: url(../../Assets/images/number1.jpg);
+}
+.card12{
+    background-image: url(../../Assets/images/number1.jpg);
+}
+.card13{
+    background-image: url(../../Assets/images/number1.jpg);
+}
+.card14{
+    background-image: url(../../Assets/images/number1.jpg);
+}
+.card15{
+    background-image: url(../../Assets/images/number1.jpg);
+}
+.card16{
+    background-image: url(../../Assets/images/number1.jpg);
+}
+.card17{
+    background-image: url(../../Assets/images/number1.jpg);
+}
+.card18{
+    background-image: url(../../Assets/images/number1.jpg);
+}
+.card19{
+    background-image: url(../../Assets/images/number1.jpg);
+}
+.card20{
+    background-image: url(../../Assets/images/number1.jpg);
+}
+.card21{
+    background-image: url(../../Assets/images/number1.jpg);
+}
+.card22{
+    background-image: url(../../Assets/images/number1.jpg);
+}
+.number{
+    font-size: 3vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+    -webkit-text-stroke: 1px white;
+    position: absolute;
+    top: 65%;
+    right: 84%;
+
+}
+#mainContainer{
+    width: 100%;
+    height: 80vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#containerHeading{
+    font-size: 3vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700;
+    color: white;
+    display: block;
+    width: 80%;
+    text-align: start;
+}
